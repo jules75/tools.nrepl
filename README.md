@@ -51,7 +51,7 @@ nREPL's functionality against multiple versions of Clojure and multiple JVMs.
 Most of the time, you will connect to an nREPL server using an existing
 client/tool.  Tools that support nREPL include:
 
-* [Leiningen](https://github.com/technomancy/leiningen) (starting with v2)
+* [Leiningen](https://github.com/technomancy/leiningen) (starting with v2, e.g. `lein repl :connect localhost:44444`)
 * [Counterclockwise](https://github.com/laurentpetit/ccw) (Clojure IDE/plugin
   for Eclipse)
 * [Cursive](https://cursiveclojure.com) (Clojure IDE/plugin for IntelliJ Idea)
